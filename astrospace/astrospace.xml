@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>AstroSpace</Name>
+  <Repository>sharonshaji92/astrospace:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:900]/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1750009140</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="9000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
+  <Config Name="SECRET_KEY" Target="SECRET_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="DB_NAME" Target="DB_NAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DB_USER" Target="DB_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="DB_PORT" Target="DB_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="WEBSITE_NAME" Target="TITLE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">AstroSpace</Config>
+  <Config Name="MAX_USERS" Target="MAX_USERS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
+  <Config Name="ASTROMETRY_API_KEY" Target="ASTROMETRY_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="DB_HOST" Target="DB_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config>
+<TailscaleStateDir/>
+</Container>
