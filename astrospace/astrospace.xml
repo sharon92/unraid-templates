@@ -12,6 +12,7 @@
   <Overview/>
   <Category/>
   <WebUI>http://[IP]:[PORT:900]/</WebUI>
+<Project>https://github.com/sharon92/astrospace</Project>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
